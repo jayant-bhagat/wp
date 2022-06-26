@@ -2,9 +2,9 @@ version: 2.1
 workflows:
   testing:
     jobs:
-      - runner
+      - jayant
 jobs:
-  runner:
+  jayant:
     machine: true
     resource_class: jayant-bhagat/test
     steps:
